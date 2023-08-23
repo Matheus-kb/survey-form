@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <img src="../public/img/two.svg" alt="A banker at his desk with a cheerful expression">
+    <form>
+        <p class="highlighted-paragraph">
+            What is the status of your account?
+        </p>
+        <label for="status-account"></label>
+        <select name="status-account" id="status-account">
+            <option value="without-account">I have not created an account yet.</option>
+            <option value="have-account">I already have an account.</option>
+            <option value="without-account">I don't need an account.</option>
+        </select>
+        <input type="radio" id="1" name="stock-market" value="Stock Market">
+        <label for="1">stock market</label>
+
+        <input type="radio" id="2" name="foreign-exchange" value="Foreign Exchange">
+        <label for="2">foreign exchange</label>
+
+        <input type="radio" id="3" name="commodity" value="Commodity">
+        <label for="3">commodity</label>
+
+        <input type="radio" id="4" name="bond-market" value="Bond Market">
+        <label for="4">bond market</label>
+
+        <input type="radio" id="5" name="cryptocurrency" value="Cryptocurrency">
+        <label for="5">cryptocurrency</label>
+    </form>
+    <div>
+        <button>Back</button>
+        <button>Next</button>
+    </div>
+    <div>
+        <button>Skip</button>
+    </div>
+</body>
+</html>
