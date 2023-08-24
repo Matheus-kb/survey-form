@@ -60,3 +60,40 @@ button {
   margin-inline-end: 1rem;
 }
 
+@media only screen and (min-width: 1024px) {
+  .page-two {
+    display: flex;
+  }
+
+  img {
+    width: 34.53206rem;
+    height: 30.00094rem;
+    padding-top: 9.12rem;
+    padding-bottom: 8.37rem;
+    padding-inline-start: 5.47rem;
+    padding-inline-end: 4.94rem;
+  }
+
+  h2 {
+    width: 29.5625rem;
+    height: 6.3125rem;
+    font-size: 2.4375rem;
+    padding-top: 13.94rem;
+    padding-inline-end: 5.5rem;
+    padding-bottom: 0.87rem;
+  }
+
+  p {
+    width: 27.6875rem;
+    height: 10.5625rem;
+    font-size: 1.75rem;
+    padding-bottom: 3.16rem;
+  }
+
+  button {
+    width: 12.4375rem;
+    height: 2.25rem;
+    font-size: 1.375rem;
+    margin-inline-end: 1.16rem;
+  }
+}
