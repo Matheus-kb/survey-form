@@ -1,57 +1,107 @@
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: #fff;
-    margin: 0;
-}
-
-img {
-    width: 271px;
-    height: 416px;
-    margin-top: 56px;
-    margin-inline-end: 91px;
+  background-color: #fff;
+  margin: 0;
 }
 
 .page-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-area {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+img {
+    width: 16.9375rem;
+    height: 26rem;
+    flex-shrink: 0;
+    padding-top: 3.5rem;
+    padding-inline-end: 9.38rem;
+    padding-inline-start: 3.69rem;
+  }
+
 h1 {
-    color: #000;
-    font-size: 53px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin: 0;
+  color: #000;
+  font-size: 53px;
+  font-weight: 700;
+  padding-bottom: 1.56rem;
+  padding-top: 1.56rem;
 }
 
 p {
-    margin: 0;
-    color: #000;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 22px;
-    width: 382px;
-    height: 47px;
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 22px;
+  width: 382px;
+  height: 47px;
 }
 
 button {
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-    width: 199px;
-    height: 36px;
-    background-color: #3EB25E;
-    border-radius: 36px;
-    border: none;
-    margin-bottom: 76px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  width: 199px;
+  height: 36px;
+  background-color: #3eb25e;
+  border-radius: 36px;
+  border: none;
+  margin-bottom: 76px;
 }
 
-button:hover{
-    color: #000;
-    background-color: #FFFF7D;
+button:hover {
+  color: #000;
+  background-color: #ffff7d;
 }
-/* AINDA NÃO ESTA COMMITADO */
+
+@media only screen and (min-width: 1024px) {
+  .page-one {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3.1875rem 5.25rem 3rem 13.25rem;
+    gap: 5rem;
+    flex-direction: row;
+  }
+
+  img {
+    width: 26.9375rem;
+    height: 41.3125rem;
+    padding-inline-end: 5rem;
+    padding-top: 0;
+  }
+
+  h1 {
+    margin: 0;
+    width: 28.5rem;
+    height: 6.625rem;
+    flex-shrink: 0;
+    font-size: 6.9375rem;
+    padding-bottom: 2.75rem;
+  }
+
+  p {
+    width: 29.5625rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    font-size: 1.8125rem;
+    padding-bottom: 4.12rem;
+  }
+
+  .text-area{
+    margin-top: 5.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
