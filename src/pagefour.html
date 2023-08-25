@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/pagefour-style.css" />
     <title>Survey Form</title>
-</head>
-<body>
-    <img src="../public/img/three.svg" alt="a bank clerk asking some questions">
+  </head>
+  <body>
+    <img
+      src="../public/img/three.svg"
+      alt="a bank clerk asking some questions"
+    />
     <form>
-        <p class="highlighted-paragraph">
-            <strong>How do you decide to invest?</strong>
-        </p>
-        <label for="investments"></label>
-        <select name="investments" id="investments">
-            <option value="without-account">I have not invested yet.</option>
-            <option value="have-account">I've invested a few times.</option>
-            <option value="without-account">I invest frequently.</option>
-        </select>
-        <input type="checkbox" id="1" name="books" value="Books an articles">
-        <label for="1">Books and articles</label>
-
-        <input type="checkbox" id="2" name="youtube" value="YouTube tutorial videos">
-        <label for="2">YouTube tutorial videos</label>
-
-        <input type="checkbox" id="3" name="courses" value="online or face to face courses">
-        <label for="3">online or face to face courses</label>
-
-        <input type="checkbox" id="4" name="experience" value="experience with little investment">
-        <label for="4">experience with little investment</label>
-    </form>
-    <div>
+      <p class="highlighted-paragraph">
+        <strong>How do you decide to invest?</strong>
+      </p>
+      <label for="investments"></label>
+      <select name="investments" id="investments">
+        <option value="without-account">I have not invested yet.</option>
+        <option value="have-account">I've invested a few times.</option>
+        <option value="without-account">I invest frequently.</option>
+      </select>
+      <p>
+        <strong
+          >What resources have you used or are you using for your
+          training?</strong
+        >
+      </p>
+      <div class="input-group">
+        <label for="1">
+          <input
+            type="checkbox"
+            id="1"
+            name="books"
+            value="Books an articles"
+          />
+          Books and articles</label
+        >
+        <label for="2">
+          <input
+            type="checkbox"
+            id="2"
+            name="youtube"
+            value="YouTube tutorial videos"
+          />
+          YouTube tutorial videos</label
+        >
+        <label for="3">
+          <input
+            type="checkbox"
+            id="3"
+            name="courses"
+            value="online or face to face courses"
+          />
+          online or face to face courses</label
+        >
+        <label for="4">
+          <input
+            type="checkbox"
+            id="4"
+            name="experience"
+            value="experience with little investment"
+          />
+          experience with little investment</label
+        >
+      </div>
+      <div class="button-group">
         <button>Back</button>
         <button>Next</button>
-    </div>
-    <div>
-        <button>Skip</button>
-    </div>
-</body>
+      </div>
+      <div class="skip">
+        <button class="button-skip">Skip</button>
+      </div>
+    </form>
+  </body>
 </html>
