@@ -77,4 +77,74 @@ button:hover {
   height: 1.625rem;
 }
 
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
 
+  img {
+    width: 34.53206rem;
+    height: 33.00094rem;
+    padding-top: 6.12rem;
+    padding-bottom: 8.3rem;
+    padding-inline-start: 5.47rem;
+    padding-inline-end: 5.87rem;
+  }
+
+  form {
+    margin-top: 10.81rem;
+    padding-bottom: 6.31rem;
+  }
+
+  p {
+    width: 25.25rem;
+    font-size: 1.625rem;
+    padding-bottom: 0.5rem;
+    text-align: start;
+  }
+
+  select {
+    width: 28.6875rem;
+    height: 3.25rem;
+    font-size: 1.625rem;
+    margin-bottom: 1.81rem;
+  }
+
+  .p2 {
+    width: 31.375rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .input-group {
+    font-size: 1.625rem;
+    margin-bottom: 1.94rem;
+  }
+
+  .input-group label {
+    margin-bottom: 0.6rem;
+  }
+
+  .button-group {
+    margin: 0;
+    display: flex;
+    align-items: start;
+    margin-bottom: 0.94rem;
+  }
+
+  button {
+    width: 12.4375rem;
+    height: 2.25rem;
+    font-size: 1.375rem;
+  }
+
+  .skip{
+    margin: 0;
+    display: flex;
+    align-items: start;
+  }
+  .button-skip {
+    width: 26.125rem;
+    height: 2.25rem;
+  }
+}
