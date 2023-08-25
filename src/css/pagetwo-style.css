@@ -60,6 +60,13 @@ button {
   margin-inline-end: 1rem;
 }
 
+button:hover {
+  color: #000;
+  background-color: #ffff7d;
+  transition: 0.6s;
+
+}
+
 @media only screen and (min-width: 1024px) {
   .page-two {
     display: flex;
