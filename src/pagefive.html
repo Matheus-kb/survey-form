@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/pagefive-style.css">
     <title>Survey Form</title>
   </head>
   <body>
-    <section>
-      <img
-        src="../public/img/four.svg"
-        alt="A banker with a cheerful expression poking his eye"
-      />
+    <img
+      src="../public/img/four.svg"
+      alt="A banker with a cheerful expression poking his eye"
+    />
+    <form>
       <p>
-        <strong>If you or someone close to you has already made a loss on the investment, write down the details</strong>
+        <strong
+          >If you or someone close to you has already made a loss on the
+          investment, write down the details</strong
+        >
       </p>
       <textarea name="details" id="details" cols="30" rows="5"></textarea>
-    </section>
-    <div>
+      <div class="button-group">
         <button>Back</button>
         <button>Next</button>
-    </div>
-    <div>
-        <button>Skip</button>
-    </div>
+      </div>
+      <div class="skip">
+        <button class="button-skip">Skip</button>
+      </div>
+    </form>
   </body>
 </html>
