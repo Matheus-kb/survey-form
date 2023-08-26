@@ -54,8 +54,8 @@ select {
 }
 
 button {
-  width: 8.875rem;
-  height: 1.625rem;
+  width: 29.58vw;
+  height: 3.42vh;
   flex-shrink: 0;
   border-radius: 2.1875rem;
   background: #3eb25e;
@@ -73,8 +73,8 @@ button:hover {
 }
 
 .button-skip {
-  width: 18.875rem;
-  height: 1.625rem;
+  width: 62.92vw;
+  height: 3.42vh;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -133,8 +133,8 @@ button:hover {
   }
 
   button {
-    width: 12.4375rem;
-    height: 2.25rem;
+    width: 15.55vw;
+    height: 4.74vh;
     font-size: 1.375rem;
   }
 
@@ -144,7 +144,7 @@ button:hover {
     align-items: start;
   }
   .button-skip {
-    width: 26.125rem;
-    height: 2.25rem;
+    width: 32.66vw;
+    height: 4.74vh;
   }
 }

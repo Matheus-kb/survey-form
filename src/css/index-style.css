@@ -51,8 +51,8 @@ button {
   font-size: 22px;
   font-weight: 700;
   color: #fff;
-  width: 199px;
-  height: 36px;
+  width: 41.46vw;
+  height: 4.74vh;
   background-color: #3eb25e;
   border-radius: 36px;
   border: none;
@@ -97,6 +97,11 @@ button:hover {
     flex-shrink: 0;
     font-size: 1.8125rem;
     padding-bottom: 4.12rem;
+  }
+
+  button {
+    width: 15.55vw;
+    height: 4.74vh;
   }
 
   .text-area{
