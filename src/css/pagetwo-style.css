@@ -9,12 +9,11 @@ body {
 }
 
 img {
-  width: 25.1875rem;
-  height: 21.8825rem;
+  width: 84.04vw;
+  height: 46.06vh;
   flex-shrink: 0;
   padding-top: 3.19rem;
   padding-inline-start: 2rem;
-  padding-inline-end: 2.81rem;
   padding-bottom: 1.74rem;
 }
 
@@ -27,8 +26,6 @@ img {
 
 h2 {
   color: #000;
-  width: 25.6875rem;
-  height: 4.3125rem;
   flex-shrink: 0;
   font-size: 1.875rem;
   font-weight: 700;
@@ -36,15 +33,16 @@ h2 {
 }
 
 p {
-  width: 20.8125rem;
-  height: 7.5625rem;
+  width:  69.38vw;
   flex-shrink: 0;
   font-size: 1.125rem;
   font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .button-group {
-  height: 3rem;
+  margin-bottom: 0;
 }
 
 button {
@@ -73,28 +71,34 @@ button:hover {
   }
 
   img {
-    width: 34.53206rem;
-    height: 30.00094rem;
+    width: 43.13vw;
+    height: 63.16vh;
     padding-top: 9.12rem;
     padding-bottom: 8.37rem;
     padding-inline-start: 5.47rem;
     padding-inline-end: 4.94rem;
   }
 
+  .text-area {
+    align-items: normal;
+  }
+
   h2 {
-    width: 29.5625rem;
-    height: 6.3125rem;
+    width: 36.95vw;
     font-size: 2.4375rem;
     padding-top: 13.94rem;
-    padding-inline-end: 5.5rem;
     padding-bottom: 0.87rem;
   }
 
   p {
-    width: 27.6875rem;
-    height: 10.5625rem;
+    width: 34.61vw;
     font-size: 1.75rem;
-    padding-bottom: 3.16rem;
+    margin-bottom: 2rem;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: row;
   }
 
   button {
