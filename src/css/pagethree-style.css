@@ -6,15 +6,16 @@
 body {
   background-color: #fff;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
-  width: 22.5rem;
-  height: 21.50238rem;
+  width: 83.96vw;
+  height: 46.06vh;
   flex-shrink: 0;
-  padding-top: 3.81rem;
+  padding-top: 2.44rem;
   padding-inline-start: 2.75rem;
-  padding-inline-end: 4.75rem;
   padding-bottom: 1.31rem;
 }
 
@@ -27,8 +28,7 @@ form {
 }
 
 p {
-  width: 17rem;
-  height: 1.25rem;
+  width: 56.5vw;
   flex-shrink: 0;
   font-size: 1rem;
   font-weight: 700;
@@ -37,8 +37,8 @@ p {
 }
 
 select {
-  width: 17.375rem;
-  height: 2.0625rem;
+  width: 58.13vw;
+  height: 4.34vh;
   flex-shrink: 0;
   border-radius: 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -49,15 +49,15 @@ select {
 }
 
 .p2 {
-  width: 21rem;
+  width: 68.5vw;
   padding-inline-start: 7.9rem;
   padding-inline-end: 4.19rem;
   padding-bottom: 0.25rem;
 }
 
 .input-group {
-  width: 11.4375rem;
-  height: 6.5rem;
+  width: 38.12vw;
+  height: 13.68vh;
   flex-shrink: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -81,6 +81,7 @@ select {
 .button-group {
   margin-inline-start: 3.5rem;
   margin-bottom: 0.63rem;
+  display: flex;
 }
 
 button {
@@ -114,14 +115,16 @@ button:hover {
 @media only screen and (min-width: 1024px) {
   body {
     display: flex;
+    flex-direction: row;
   }
 
   img {
-    width: 34.53206rem;
-    height: 33.00094rem;
+    width: 43.17vw;
+    height: 69.47vh;
     padding-top: 6.12rem;
     padding-bottom: 8.37rem;
     padding-inline-start: 5.47rem;
+    margin-inline-end: 5.87rem;
   }
 
   form {
@@ -131,18 +134,17 @@ button:hover {
   }
 
   p {
-    width: 29.375rem;
-    height: 2.5rem;
+    width: 36.72vw;
     font-size: 1.625rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
     text-align: start;
   }
 
   select {
-    width: 28.6875rem;
-    height: 3.25rem;
+    width:  37.65vw;
+    height: 6.84vh;
     font-size: 1.6875rem;
-    margin-bottom: 2.63rem;
+    margin-bottom: 2.7rem;
   }
 
   .p2 {
@@ -150,15 +152,14 @@ button:hover {
     font-size: 1.555rem;
     line-height: normal;
     margin-inline-end: 2.37rem;
-    margin-bottom: 0.37rem;
-    width: 511px;
-    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    width: 39.92vw;
   }
 
   .input-group {
-    width: 20.25rem;
+    width: 28vw;
     margin-inline-start: 0.2rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 5.2rem;
     font-size: 1.625rem;
   }
 
