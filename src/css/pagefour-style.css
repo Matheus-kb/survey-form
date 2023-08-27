@@ -12,8 +12,8 @@ body {
 }
 
 img {
-  width: 100vw;
-  height: 50vh;
+  width: 79.17vw;
+  height: 47.85vh;
   padding-top: 3rem;
   padding-bottom: 0.7rem;
 }
@@ -33,8 +33,8 @@ p {
 }
 
 select {
-  width: 17.375rem;
-  height: 2.0625rem;
+  width: 58.13vw;
+  height: 4.34vh;
   flex-shrink: 0;
   border-radius: 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -84,8 +84,8 @@ button:hover {
   }
 
   img {
-    width: 34.53206rem;
-    height: 33.00094rem;
+    width: 43.17vw;
+    height: 69.47vh;
     padding-top: 6.12rem;
     padding-bottom: 8.3rem;
     padding-inline-start: 5.47rem;
@@ -93,27 +93,27 @@ button:hover {
   }
 
   form {
-    margin-top: 10.81rem;
-    padding-bottom: 6.31rem;
+    margin-top: 3.5rem;
+
   }
 
   p {
-    width: 25.25rem;
+    width: 31.56vw;
     font-size: 1.625rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
     text-align: start;
   }
 
   select {
-    width: 28.6875rem;
-    height: 3.25rem;
+    width: 35.86vw;
+    height: 6.84vh;
     font-size: 1.625rem;
     margin-bottom: 1.81rem;
   }
 
   .p2 {
-    width: 31.375rem;
-    padding-bottom: 0.75rem;
+    width: 39.22vw;
+    padding-bottom: 1.5rem;
   }
 
   .input-group {
