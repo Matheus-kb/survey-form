@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/css/pagethree-style.css" />
+    <script src="/src/js/scripts-pagethree.js"></script>
     <title>Survey Form</title>
   </head>
   <body>
@@ -11,7 +12,7 @@
         src="../public/img/two.svg"
         alt="A banker at his desk with a cheerful expression"
       />
-      <form>
+      <form id="form-account">
         <p class="highlighted-paragraph">
           <strong>What is the status of your account?</strong>
         </p>
@@ -21,7 +22,7 @@
             I have not created an account yet.
           </option>
           <option value="have-account">I already have an account.</option>
-          <option value="without-account">I don't need an account.</option>
+          <option value="dont-need-account">I don't need an account.</option>
         </select>
         <p class="p2">In which financial markets do you operate?</p>
 
@@ -52,11 +53,11 @@
           >
         </div>
         <div class="button-group">
-          <button>Back</button>
-          <button>Next</button>
+          <button onclick="backPage(); return false;">Back</button>
+          <button onclick="validatePage(); return false" >Next</button>
         </div>
         <div class="skip">
-          <button class="button-skip">Skip</button>
+          <button class="button-skip" onclick="skipPage(); return false;">Skip</button>
         </div>
       </form>
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/css/pagefour-style.css" />
+    <script src="/src/js/scripts-pagefour.js"></script>
     <title>Survey Form</title>
   </head>
   <body>
@@ -34,7 +35,7 @@
           <input
             type="checkbox"
             id="1"
-            name="books"
+            name="option"
             value="Books an articles"
           />
           Books and articles</label
@@ -43,7 +44,7 @@
           <input
             type="checkbox"
             id="2"
-            name="youtube"
+            name="option"
             value="YouTube tutorial videos"
           />
           YouTube tutorial videos</label
@@ -52,7 +53,7 @@
           <input
             type="checkbox"
             id="3"
-            name="courses"
+            name="option"
             value="online or face to face courses"
           />
           online or face to face courses</label
@@ -61,18 +62,18 @@
           <input
             type="checkbox"
             id="4"
-            name="experience"
+            name="option"
             value="experience with little investment"
           />
           experience with little investment</label
         >
       </div>
       <div class="button-group">
-        <button>Back</button>
-        <button>Next</button>
+        <button onclick="backPage(); return false;">Back</button>
+        <button onclick="validatePage(); return false;">Next</button>
       </div>
       <div class="skip">
-        <button class="button-skip">Skip</button>
+        <button class="button-skip" onclick="skipPage(); return false;">Skip</button>
       </div>
     </form>
   </body>

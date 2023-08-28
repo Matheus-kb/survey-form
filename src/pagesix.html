@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/pagesix-style.css">
+    <script src="/src/js/scripts-pagesix.js"></script>
     <title>Survey Form</title>
 </head>
 <body>
@@ -16,8 +17,8 @@
         <label for="age">Age:</label>
         <input class="input-age" type="number" id="age" placeholder="-- --" required>
         <div class="button-group">
-            <button>Back</button>
-            <button>Submit</button>
+            <button onclick="backPage();">Back</button>
+            <button onclick="validatePage(); return false;">Submit</button>
         </div>
     </form>
 </body>
