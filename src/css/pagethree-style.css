@@ -46,6 +46,9 @@ select {
   font-size: 1rem;
   text-align: center;
   padding: 0.37rem;
+  background: url('/public/img/vectorp.svg') 10px 50% no-repeat;
+  padding-inline-start: 2rem;
+  appearance: none;
 }
 
 .p2 {
