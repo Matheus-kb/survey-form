@@ -76,6 +76,17 @@ select {
 .input-group input[type="radio"] {
   margin-inline-start: -2.5rem;
   margin-inline-end: 0.4rem;
+  appearance: none;
+  width: 3.13vw;
+  height: 1.97vh;
+  background-color: #3eb25e;
+  opacity: 30%;
+  border-radius: 50%;
+}
+
+.input-group input[type="radio"]:checked {
+  background-color: #3eb25e;
+  opacity: 100;
 }
 
 .button-group {
@@ -141,7 +152,7 @@ button:hover {
   }
 
   select {
-    width:  37.65vw;
+    width: 37.65vw;
     height: 6.84vh;
     font-size: 1.6875rem;
     margin-bottom: 2.7rem;
@@ -170,6 +181,9 @@ button:hover {
   .input-group input[type="radio"] {
     margin-inline-start: 0;
     margin-inline-end: 1rem;
+    appearance: none;
+    width: 1.95vw;
+    height: 3.29vh;
   }
 
   .button-group {
@@ -185,7 +199,7 @@ button:hover {
     font-size: 1.375rem;
   }
 
-  .skip{
+  .skip {
     margin: 0;
     display: flex;
     align-items: start;

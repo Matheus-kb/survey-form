@@ -49,6 +49,20 @@ select {
   margin-bottom: 1.31rem;
 }
 
+.input-group input[type="checkbox"] {
+  appearance: none;
+  width: 3.13vw;
+  height: 1.97vh;
+  background-color: #3eb25e;
+  opacity: 30%;
+  border-radius: 15%;
+}
+
+.input-group input[type="checkbox"]:checked {
+  background-color: #3eb25e;
+  opacity: 100;
+}
+
 .button-group {
   margin-bottom: 0.56rem;
 }
@@ -119,6 +133,11 @@ button:hover {
   .input-group {
     font-size: 1.625rem;
     margin-bottom: 1.94rem;
+  }
+
+  .input-group input[type="checkbox"] {
+    width: 1.95vw;
+    height: 3.29vh;
   }
 
   .input-group label {
